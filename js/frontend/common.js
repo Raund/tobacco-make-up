@@ -39,7 +39,7 @@ Drupal.behaviors.textarea = {
 (function ($) {
 
   "use strict";
-
+  
   Drupal.behaviors.webform = Drupal.behaviors.webform || {};
 
   Drupal.behaviors.webform.attach = function (context) {

@@ -3760,3 +3760,76 @@ header .language-switcher ul.language-switcher-locale-url li a:hover,
 header .language-switcher ul.language-switcher-locale-url li.active a {
     color: #d2a450
 }
+
+/*flex style*/
+.product-item{
+    text-align: center;
+}
+.product-img{
+    height: 300px;
+    margin-bottom: 20px;
+    line-height: 300px;
+}
+.product-img img{
+    max-width: 100%;
+    max-height: 300px;
+}
+h2.product-section-title{
+    margin-bottom: 80px;
+}
+.product-name{
+
+}
+h3.block-title {
+    margin-bottom: 20px;
+    color: #d2a450;
+    font-weight: 700;
+    font-family: Georgia, sans-serif;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    background: inherit;
+    color: #d2a450;
+    font-size: 40px;
+}
+.owl-pagination{
+    display: none;
+}
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 30%;
+}
+.owl-next {
+    right: -10px;
+    transform: rotate(-90deg) ;
+    -webkit-transform: rotate(-90deg) ;
+    -moz-transform: rotate(-90deg) ;
+    -o-transform: rotate(-90deg) ;
+    -ms-transform: rotate(-90deg) ;
+}
+.owl-prev {
+    left: -10px;
+    transform: rotate(90deg) ;
+    -webkit-transform: rotate(90deg) ;
+    -moz-transform: rotate(90deg) ;
+    -o-transform: rotate(90deg) ;
+    -ms-transform: rotate(90deg) ;
+
+}
+@media (max-width: 1049px){
+    .owl-carousel{
+        margin: 0 0 150px 0;
+    }
+    h2.product-section-title {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 480px){
+    .owl-next {
+        right: -30px;
+    }
+    .owl-prev {
+        left: -30px;
+    }
+}
+/*END flex style*/
